@@ -1,3 +1,4 @@
+
 body{
     background: lightblue;
     font-family: fantasy;
@@ -8,6 +9,18 @@ header{
     height: 100px;
     width: 100px;
     
+}
+
+.it {
+  padding: 8px 16px;
+  background: rgb(215,95,194);
+  border: none;
+  box-shadow: 4px 4px 0px 0px rgba(0,0,0.3);
+  transition: all 0.3s;
+}
+.it:focus {
+  transform: translate(3px, 3px);
+  box-shadow: 1px 1px 0px 0px rgba(0,0,0.7);
 }
 .holo{
   margin-left: 0%;

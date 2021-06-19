@@ -49,10 +49,10 @@ public class GameController {
     @PostMapping("/play")
     public String play(String number) {
         valores.add(number);
-        this.numberTry = number;
-        this.picas = gameRules.getPicas();
-        this.famas = gameRules.getFamas();
-        this.valores = gameRules.getIntentos();
+        numberTry = number;
+        picas = gameRules.getPicas();
+        famas = gameRules.getFamas();
+        valores = gameRules.getIntentos();
         gameRules.picasFamas(numberTry);
         return "redirect:/play";
     }
