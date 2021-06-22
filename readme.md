@@ -15,7 +15,7 @@ it will run in localhost:5000
 
 You can see working project in heroku:
 
-[https://picasfamas.herokuapp.com//](https://picasfamas.herokuapp.com/)
+[https://picasfamas.herokuapp.com/](https://picasfamas.herokuapp.com/)
 
 if you want to clone project
 
